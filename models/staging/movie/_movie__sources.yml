@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: movie
+    database: august-now-342904
+    schema: movie
+    description: Raw movie data in BigQuery.
+    tables:
+      - name: movie
+        description: Movie titles, release dates, credits, budgets, and revenue.

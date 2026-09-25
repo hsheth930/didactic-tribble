@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_adhoc__movie
+    description: Movie data with standardized column names, preserving source values and types.
+    columns:
+      - name: movie_title
+        description: Movie title.
+      - name: release_date
+        description: Movie release date.
+      - name: wikipedia_url
+        description: Wikipedia page URL.
+      - name: genre
+        description: Genre as recorded in the source.
+      - name: director_1
+        description: First listed director.
+      - name: director_2
+        description: Second listed director.
+      - name: cast_1
+        description: First listed cast member.
+      - name: cast_2
+        description: Second listed cast member.
+      - name: cast_3
+        description: Third listed cast member.
+      - name: cast_4
+        description: Fourth listed cast member.
+      - name: cast_5
+        description: Fifth listed cast member.
+      - name: budget
+        description: Budget as recorded in the source; currency and units are unspecified.
+      - name: revenue
+        description: Revenue as recorded in the source; currency and units are unspecified.
